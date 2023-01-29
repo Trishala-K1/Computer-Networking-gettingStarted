@@ -9,7 +9,7 @@ def welcome_assignment_answers(question):
         answer = "Yes"
     elif question == "Is a hashed message supposed to be un-hashed? - Yes/No":
         answer = "No"
-    elif question == "What is the SHA256 hashing value to the following message: 'NYU Computer Networking'":
+    elif question == "What is the SHA256 hashing value to the following message: 'NYU Computer Networking'- Use SHA256 hash generator and use the answer in your code":
         answer = "883c13da6a24949c9a23231b60119e2ace58459da4f8bbdd812cc37764548bdd"
     elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
         answer = "No"
@@ -36,7 +36,7 @@ if __name__ == "__main__":
     print(welcome_assignment_answers(debug_question))
     debug_question = "Is a hashed message supposed to be un-hashed? - Yes/No"
     print(welcome_assignment_answers(debug_question))
-    debug_question = "What is the SHA256 hashing value to the following message: 'NYU Computer Networking'"
+    debug_question = "What is the SHA256 hashing value to the following message: 'NYU Computer Networking'- Use SHA256 hash generator and use the answer in your code"
     print(welcome_assignment_answers(debug_question))
     debug_question = "Is MD5 a secured hashing algorithm? - Yes/No"
     print(welcome_assignment_answers(debug_question))
