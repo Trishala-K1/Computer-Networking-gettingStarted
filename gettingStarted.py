@@ -1,4 +1,10 @@
+### welcome_assignment_answers
+### Input - All nine questions given in the assignment.
+### Output - The right answer for the specific question.
+
 def welcome_assignment_answers(question):
+    #Students do not have to follow the skeleton for this assignment.
+    #Another way to implement is using a "case" statements similar to C.
     if question == "Are encoding and encryption the same? - Yes/No":
         answer = "No"
     elif question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":
@@ -21,11 +27,13 @@ def welcome_assignment_answers(question):
         ### you should understand why this else case should be included
         ### what happens if there is a typo in one of the questions?
         ### maybe put something here to flag an issue
-        answer = "  "
+        answer = ""
     return(answer)
+# Complete all the questions.
+
 
 if __name__ == "__main__":
-    # use this space to debug and verify that the program works
+    #use this space to debug and verify that the program works
     debug_question = "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?"
     print(welcome_assignment_answers(debug_question))
     debug_question = "Are encoding and encryption the same? - Yes/No"
@@ -44,6 +52,7 @@ if __name__ == "__main__":
     print(welcome_assignment_answers(debug_question))
     debug_question = "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number"
     print(welcome_assignment_answers(debug_question))
+
 
 #Questions:
 #"In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":
